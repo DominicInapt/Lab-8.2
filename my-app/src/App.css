@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+div{
+  text-align: center;
+}
+
+ol{
+  display: inline-block;
+  text-align: left;
+}
+
+li :hover{
+  background-color: yellow;
+}
+div.item1{
+  height: 100px;
+  margin: 5px auto ;
+  width:70%;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+
+div.item2{
+  height: 100px;
+  margin: 5px auto ;
+  width:70%;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+
+input{
+  background-color: chartreuse;
+  border-radius: 5px;
+}
+
+div.item1{
+  background-color: darkgreen;
+}
+div.item1:hover{
+  background-color: lightgreen;
+}
+
+div.item2{
+  background-color: darkblue;
+}
+div.item2:hover{
+  background-color: lightblue;
+}
+
+button.delete{
+  float:right;
+  font-size:40px;
+  margin:10px;
+  height:70px;
+  width: 70px;
+  border: 4px solid black;
+  border-radius: 6px;
+  background-color: lightgrey;
+}
+
+button.delete:hover{
+  background-color: grey;
+}
+
+button.stringy{
+    background-color:chartreuse;
+}
+
+button.stringy:hover{
+  background-color: purple;
+}
+
+p{
+  font-size: 60px;
+  color: black;
+  height: 80px;
+  margin: 0px;
+  padding:0px;
+  border:0px;
+}
+
